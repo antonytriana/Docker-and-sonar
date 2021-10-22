@@ -7,7 +7,7 @@ echo "Permisos de ejecucion al binario"
 sudo chmod +x /usr/local/bin/docker-compose
 
 echo "Se baja el archivo docker-compose de SonarQube y PostgreSQL"
-wget https://raw.githubusercontent.com/antonytriana/petbook-reto/master/docker-compose.yml
+sudo wget https://raw.githubusercontent.com/antonytriana/petbook-reto/master/docker-compose.yml
 
 echo "Establecer temporalmente max_map_count"
 sudo sysctl -w vm.max_map_count=262144
