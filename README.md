@@ -3,10 +3,10 @@
 ## Docker
 Desplegar Docker en una AMI -Amazon Linux 2
 1. Primero ejecutar
-> wget https://raw.githubusercontent.com/antonytriana/Docker-and-sonar/main/docker.sh
+> sudo wget https://raw.githubusercontent.com/antonytriana/Docker-and-sonar/main/docker.sh
 
 2. Permiso de ejecucion
-> chmod +x script.sh
+> sudo chmod +x docker.sh
 
 3. Ejecutar el script
 > ./docker.sh
@@ -14,10 +14,10 @@ Desplegar Docker en una AMI -Amazon Linux 2
 ## Docker Componse y SonarQube
 Desplegar Docker-Compose y SonarQube en una AMI -Amazon Linux 2
 1. Primero ejecutar
-> wget https://raw.githubusercontent.com/antonytriana/Docker-and-sonar/main/compose-sonar.sh
+> sudo wget https://raw.githubusercontent.com/antonytriana/Docker-and-sonar/main/compose-sonar.sh
 
 2. Permiso de ejecucion
-> chmod +x compose-sonar.sh
+> sudo chmod +x compose-sonar.sh
 
 3. Ejecutar el script
 > ./compose-sonar.sh
